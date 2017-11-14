@@ -14,6 +14,7 @@
 		DAF392571FBB9AE100D7BDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF392551FBB9AE100D7BDDB /* LaunchScreen.storyboard */; };
 		DAF3925A1FBB9AE100D7BDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392591FBB9AE100D7BDDB /* main.m */; };
 		DAF392651FBB9CD300D7BDDB /* InstaPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392641FBB9CD300D7BDDB /* InstaPicture.m */; };
+		DAF392681FBBA54000D7BDDB /* PictureViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392671FBBA54000D7BDDB /* PictureViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		DAF392591FBB9AE100D7BDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAF392631FBB9CD300D7BDDB /* InstaPicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InstaPicture.h; path = Model/InstaPicture.h; sourceTree = SOURCE_ROOT; };
 		DAF392641FBB9CD300D7BDDB /* InstaPicture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = InstaPicture.m; path = Model/InstaPicture.m; sourceTree = SOURCE_ROOT; };
+		DAF392661FBBA54000D7BDDB /* PictureViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureViewCell.h; sourceTree = "<group>"; };
+		DAF392671FBBA54000D7BDDB /* PictureViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +49,9 @@
 			isa = PBXGroup;
 			children = (
 				DAF392491FBB9AE100D7BDDB /* PracticeInstaKilo */,
-				DAF392621FBB9C4D00D7BDDB /* Model */,
 				DAF392611FBB9C4B00D7BDDB /* View */,
 				DAF392601FBB9C4700D7BDDB /* Controller */,
+				DAF392621FBB9C4D00D7BDDB /* Model */,
 				DAF392481FBB9AE100D7BDDB /* Products */,
 				DAF392531FBB9AE100D7BDDB /* Assets.xcassets */,
 				DAF3924A1FBB9AE100D7BDDB /* AppDelegate.h */,
@@ -79,6 +82,8 @@
 			children = (
 				DAF3924D1FBB9AE100D7BDDB /* ViewController.h */,
 				DAF3924E1FBB9AE100D7BDDB /* ViewController.m */,
+				DAF392661FBBA54000D7BDDB /* PictureViewCell.h */,
+				DAF392671FBBA54000D7BDDB /* PictureViewCell.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				DAF392651FBB9CD300D7BDDB /* InstaPicture.m in Sources */,
 				DAF3924F1FBB9AE100D7BDDB /* ViewController.m in Sources */,
 				DAF3925A1FBB9AE100D7BDDB /* main.m in Sources */,
+				DAF392681FBBA54000D7BDDB /* PictureViewCell.m in Sources */,
 				DAF3924C1FBB9AE100D7BDDB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

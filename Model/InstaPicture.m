@@ -10,4 +10,16 @@
 
 @implementation InstaPicture
 
+
+- (instancetype)initWithName:(NSString*)name description:(NSString*)description category:(NSString*)category
+{
+    if (self = [super init]) {
+        _name = name;
+        _photoDescription = description;
+        _category = category;
+    }
+    return self;
+}
+
+
 @end

@@ -14,5 +14,4 @@
 @property NSString* photoDescription;
 @property NSString* category;
 
-
 @end
