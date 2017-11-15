@@ -13,6 +13,7 @@
 		DAF392811FBBF3CD00D7BDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF392801FBBF3CD00D7BDDB /* Assets.xcassets */; };
 		DAF392841FBBF3CD00D7BDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF392821FBBF3CD00D7BDDB /* LaunchScreen.storyboard */; };
 		DAF392871FBBF3CD00D7BDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392861FBBF3CD00D7BDDB /* main.m */; };
+		DAF392921FBBF4F000D7BDDB /* PictureObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392911FBBF4F000D7BDDB /* PictureObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DAF392831FBBF3CD00D7BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAF392851FBBF3CD00D7BDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAF392861FBBF3CD00D7BDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAF392901FBBF4F000D7BDDB /* PictureObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PictureObject.h; path = PracticeInstaKilo/Model/PictureObject.h; sourceTree = SOURCE_ROOT; };
+		DAF392911FBBF4F000D7BDDB /* PictureObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PictureObject.m; path = PracticeInstaKilo/Model/PictureObject.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +61,51 @@
 		DAF392761FBBF3CD00D7BDDB /* PracticeInstaKilo */ = {
 			isa = PBXGroup;
 			children = (
-				DAF392771FBBF3CD00D7BDDB /* AppDelegate.h */,
-				DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */,
+				DAF3928F1FBBF4CC00D7BDDB /* Controller */,
+				DAF3928E1FBBF4C500D7BDDB /* View */,
+				DAF3928D1FBBF4B600D7BDDB /* Model */,
+				DAF392931FBBF4FD00D7BDDB /* Support */,
+			);
+			path = PracticeInstaKilo;
+			sourceTree = "<group>";
+		};
+		DAF3928D1FBBF4B600D7BDDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAF392901FBBF4F000D7BDDB /* PictureObject.h */,
+				DAF392911FBBF4F000D7BDDB /* PictureObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAF3928E1FBBF4C500D7BDDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3927D1FBBF3CD00D7BDDB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAF3928F1FBBF4CC00D7BDDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				DAF3927A1FBBF3CD00D7BDDB /* ViewController.h */,
 				DAF3927B1FBBF3CD00D7BDDB /* ViewController.m */,
-				DAF3927D1FBBF3CD00D7BDDB /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAF392931FBBF4FD00D7BDDB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				DAF392771FBBF3CD00D7BDDB /* AppDelegate.h */,
+				DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */,
 				DAF392801FBBF3CD00D7BDDB /* Assets.xcassets */,
 				DAF392821FBBF3CD00D7BDDB /* LaunchScreen.storyboard */,
 				DAF392851FBBF3CD00D7BDDB /* Info.plist */,
 				DAF392861FBBF3CD00D7BDDB /* main.m */,
 			);
-			path = PracticeInstaKilo;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF3927C1FBBF3CD00D7BDDB /* ViewController.m in Sources */,
+				DAF392921FBBF4F000D7BDDB /* PictureObject.m in Sources */,
 				DAF392871FBBF3CD00D7BDDB /* main.m in Sources */,
 				DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */,
 			);
