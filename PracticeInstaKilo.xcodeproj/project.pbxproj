@@ -64,6 +64,7 @@
 		DAF392761FBBF3CD00D7BDDB /* PracticeInstaKilo */ = {
 			isa = PBXGroup;
 			children = (
+				DAF392851FBBF3CD00D7BDDB /* Info.plist */,
 				DAF3928F1FBBF4CC00D7BDDB /* Controller */,
 				DAF3928E1FBBF4C500D7BDDB /* View */,
 				DAF3928D1FBBF4B600D7BDDB /* Model */,
@@ -107,7 +108,6 @@
 				DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */,
 				DAF392801FBBF3CD00D7BDDB /* Assets.xcassets */,
 				DAF392821FBBF3CD00D7BDDB /* LaunchScreen.storyboard */,
-				DAF392851FBBF3CD00D7BDDB /* Info.plist */,
 				DAF392861FBBF3CD00D7BDDB /* main.m */,
 			);
 			path = Support;
