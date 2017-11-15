@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DA7186361FBC0004007C5A8C /* PictureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7186351FBC0004007C5A8C /* PictureHandler.m */; };
+		DA7186391FBC02B6007C5A8C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7186381FBC02B6007C5A8C /* MasterViewController.m */; };
 		DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */; };
-		DAF3927C1FBBF3CD00D7BDDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3927B1FBBF3CD00D7BDDB /* ViewController.m */; };
 		DAF3927F1FBBF3CD00D7BDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF3927D1FBBF3CD00D7BDDB /* Main.storyboard */; };
 		DAF392811FBBF3CD00D7BDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF392801FBBF3CD00D7BDDB /* Assets.xcassets */; };
 		DAF392841FBBF3CD00D7BDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF392821FBBF3CD00D7BDDB /* LaunchScreen.storyboard */; };
@@ -21,11 +21,11 @@
 /* Begin PBXFileReference section */
 		DA7186341FBC0004007C5A8C /* PictureHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureHandler.h; sourceTree = "<group>"; };
 		DA7186351FBC0004007C5A8C /* PictureHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureHandler.m; sourceTree = "<group>"; };
+		DA7186371FBC02B6007C5A8C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DA7186381FBC02B6007C5A8C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		DAF392741FBBF3CD00D7BDDB /* PracticeInstaKilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeInstaKilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF392771FBBF3CD00D7BDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DAF3927A1FBBF3CD00D7BDDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DAF3927B1FBBF3CD00D7BDDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DAF3927E1FBBF3CD00D7BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAF392801FBBF3CD00D7BDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF392831FBBF3CD00D7BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 		DAF3928F1FBBF4CC00D7BDDB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DAF3927A1FBBF3CD00D7BDDB /* ViewController.h */,
-				DAF3927B1FBBF3CD00D7BDDB /* ViewController.m */,
+				DA7186371FBC02B6007C5A8C /* MasterViewController.h */,
+				DA7186381FBC02B6007C5A8C /* MasterViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,11 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAF3927C1FBBF3CD00D7BDDB /* ViewController.m in Sources */,
 				DAF392921FBBF4F000D7BDDB /* PictureObject.m in Sources */,
 				DAF392871FBBF3CD00D7BDDB /* main.m in Sources */,
 				DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */,
 				DAF392961FBBF6A400D7BDDB /* PictureCategory.m in Sources */,
+				DA7186391FBC02B6007C5A8C /* MasterViewController.m in Sources */,
 				DA7186361FBC0004007C5A8C /* PictureHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
