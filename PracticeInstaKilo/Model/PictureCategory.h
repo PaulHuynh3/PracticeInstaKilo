@@ -1,5 +1,5 @@
 //
-//  PictureObject.h
+//  PictureCategory.h
 //  PracticeInstaKilo
 //
 //  Created by Paul on 2017-11-14.
@@ -7,13 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@import UIKit;
 
-@interface PictureObject : NSObject
-
-@property UIImage* photo;
-
--(instancetype)initWithPicture: (NSString*)imageName;
-
+@interface PictureCategory : NSObject
 
 @end

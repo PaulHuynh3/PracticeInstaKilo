@@ -14,6 +14,7 @@
 		DAF392841FBBF3CD00D7BDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF392821FBBF3CD00D7BDDB /* LaunchScreen.storyboard */; };
 		DAF392871FBBF3CD00D7BDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392861FBBF3CD00D7BDDB /* main.m */; };
 		DAF392921FBBF4F000D7BDDB /* PictureObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392911FBBF4F000D7BDDB /* PictureObject.m */; };
+		DAF392961FBBF6A400D7BDDB /* PictureCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392951FBBF6A400D7BDDB /* PictureCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		DAF392861FBBF3CD00D7BDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAF392901FBBF4F000D7BDDB /* PictureObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PictureObject.h; path = PracticeInstaKilo/Model/PictureObject.h; sourceTree = SOURCE_ROOT; };
 		DAF392911FBBF4F000D7BDDB /* PictureObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PictureObject.m; path = PracticeInstaKilo/Model/PictureObject.m; sourceTree = SOURCE_ROOT; };
+		DAF392941FBBF6A400D7BDDB /* PictureCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureCategory.h; sourceTree = "<group>"; };
+		DAF392951FBBF6A400D7BDDB /* PictureCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureCategory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 		DAF3928D1FBBF4B600D7BDDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DAF392941FBBF6A400D7BDDB /* PictureCategory.h */,
+				DAF392951FBBF6A400D7BDDB /* PictureCategory.m */,
 				DAF392901FBBF4F000D7BDDB /* PictureObject.h */,
 				DAF392911FBBF4F000D7BDDB /* PictureObject.m */,
 			);
@@ -183,6 +188,7 @@
 				DAF392921FBBF4F000D7BDDB /* PictureObject.m in Sources */,
 				DAF392871FBBF3CD00D7BDDB /* main.m in Sources */,
 				DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */,
+				DAF392961FBBF6A400D7BDDB /* PictureCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
