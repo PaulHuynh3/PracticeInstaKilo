@@ -18,7 +18,6 @@
         [self createCategory];
     }
     return self;
-    
 }
 
 -(void)createCategory{

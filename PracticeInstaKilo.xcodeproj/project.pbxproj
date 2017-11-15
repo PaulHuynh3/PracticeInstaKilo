@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA7186361FBC0004007C5A8C /* PictureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7186351FBC0004007C5A8C /* PictureHandler.m */; };
 		DA7186391FBC02B6007C5A8C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7186381FBC02B6007C5A8C /* MasterViewController.m */; };
+		DAE902AF1FBCEEF700D9C0AB /* PictureViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE902AE1FBCEEF700D9C0AB /* PictureViewCell.m */; };
 		DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */; };
 		DAF3927F1FBBF3CD00D7BDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF3927D1FBBF3CD00D7BDDB /* Main.storyboard */; };
 		DAF392811FBBF3CD00D7BDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF392801FBBF3CD00D7BDDB /* Assets.xcassets */; };
@@ -23,6 +24,8 @@
 		DA7186351FBC0004007C5A8C /* PictureHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureHandler.m; sourceTree = "<group>"; };
 		DA7186371FBC02B6007C5A8C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		DA7186381FBC02B6007C5A8C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DAE902AD1FBCEEF700D9C0AB /* PictureViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureViewCell.h; sourceTree = "<group>"; };
+		DAE902AE1FBCEEF700D9C0AB /* PictureViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureViewCell.m; sourceTree = "<group>"; };
 		DAF392741FBBF3CD00D7BDDB /* PracticeInstaKilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeInstaKilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF392771FBBF3CD00D7BDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 			children = (
 				DA7186371FBC02B6007C5A8C /* MasterViewController.h */,
 				DA7186381FBC02B6007C5A8C /* MasterViewController.m */,
+				DAE902AD1FBCEEF700D9C0AB /* PictureViewCell.h */,
+				DAE902AE1FBCEEF700D9C0AB /* PictureViewCell.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE902AF1FBCEEF700D9C0AB /* PictureViewCell.m in Sources */,
 				DAF392921FBBF4F000D7BDDB /* PictureObject.m in Sources */,
 				DAF392871FBBF3CD00D7BDDB /* main.m in Sources */,
 				DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */,

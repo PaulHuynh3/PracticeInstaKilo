@@ -21,6 +21,7 @@
         
         PictureCategory* basketball = [[PictureCategory alloc]initWithCategoryName:@"BallPlayer"];
         
+        //created when the initializer is called.
         self.categories = @[batman,animal,basketball];
     }
     
