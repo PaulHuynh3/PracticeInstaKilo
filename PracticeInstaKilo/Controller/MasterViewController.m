@@ -20,7 +20,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.pictureHandler = [[PictureHandler alloc]init];
 
 }
@@ -30,11 +29,20 @@
     
 }
 
+-(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    //get the pictureCategory property and put it in here.
+    if (kind isEqualToString: self.pictureHandler[indexPath.row].)
+    
+}
+
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     PictureViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellIdentifier" forIndexPath:indexPath];
     
+    cell.pictureName.text = self.pictureHandler.categories[indexPath.row].categoryName;
 
     return cell;
     
