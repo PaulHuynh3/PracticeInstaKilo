@@ -12,6 +12,7 @@
 @interface PictureCategory : NSObject
 
 @property (nonatomic,strong) NSString* categoryName;
+//saves all the pictures being created
 @property(nonatomic,strong) NSArray <PictureObject*> * pictures;
 
 -(instancetype)initWithCategoryName:(NSString*)name;

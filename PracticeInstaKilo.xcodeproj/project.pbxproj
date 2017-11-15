@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7186361FBC0004007C5A8C /* PictureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7186351FBC0004007C5A8C /* PictureHandler.m */; };
 		DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */; };
 		DAF3927C1FBBF3CD00D7BDDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3927B1FBBF3CD00D7BDDB /* ViewController.m */; };
 		DAF3927F1FBBF3CD00D7BDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF3927D1FBBF3CD00D7BDDB /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA7186341FBC0004007C5A8C /* PictureHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureHandler.h; sourceTree = "<group>"; };
+		DA7186351FBC0004007C5A8C /* PictureHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureHandler.m; sourceTree = "<group>"; };
 		DAF392741FBBF3CD00D7BDDB /* PracticeInstaKilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeInstaKilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF392771FBBF3CD00D7BDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 		DAF3928D1FBBF4B600D7BDDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DA7186341FBC0004007C5A8C /* PictureHandler.h */,
+				DA7186351FBC0004007C5A8C /* PictureHandler.m */,
 				DAF392941FBBF6A400D7BDDB /* PictureCategory.h */,
 				DAF392951FBBF6A400D7BDDB /* PictureCategory.m */,
 				DAF392901FBBF4F000D7BDDB /* PictureObject.h */,
@@ -189,6 +194,7 @@
 				DAF392871FBBF3CD00D7BDDB /* main.m in Sources */,
 				DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */,
 				DAF392961FBBF6A400D7BDDB /* PictureCategory.m in Sources */,
+				DA7186361FBC0004007C5A8C /* PictureHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

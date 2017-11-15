@@ -14,7 +14,7 @@
     
     if (self = [super init]){
         _categoryName = name;
-        
+        //when picturesCategory is instantiated self.pictures will also be created with the saved categories.
         [self createCategory];
     }
     return self;
