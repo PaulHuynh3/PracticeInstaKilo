@@ -12,8 +12,7 @@
 
 @interface DetailViewController : UIViewController
 
-@property PictureObject *picture;
-@property PictureObject *pictureName;
+@property PictureObject *photoObject;
 
 @property PictureCategory *categoryName;
 

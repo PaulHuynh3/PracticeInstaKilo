@@ -77,7 +77,7 @@
         
         DetailViewController *dvc = [segue destinationViewController];
         
-        dvc.pictureObject = cell.pictureName;
+        dvc.photoObject = cell.photoObject;
         
     }
     

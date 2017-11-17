@@ -19,16 +19,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self configureView];
 
 }
 
-//-(void)setPictureObject:(PictureObject *)pictureObject{
-//    _pictureObject = pictureObject;
-//    self.PictureName.text = pictureObject.photoName;
-//    self.detailImageView.image = pictureObject.photo;
-//
-//}
+
+-(void)configureView{
+    
+    self.PictureName.text = self.photoObject.photoName;
+    self.detailImageView.image = self.photoObject.photo;
+    
+}
+
+
 
 
 
