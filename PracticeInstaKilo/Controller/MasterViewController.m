@@ -9,6 +9,9 @@
 #import "MasterViewController.h"
 #import "PictureHandler.h" //note when we import picturehandler.h we have access to picturecategory.h and pictureobject.h (they were created in the initializer of picturehandler)
 #import "PictureViewCell.h"
+#import "PictureCategory.h"
+#import "SectionReusableView.h"
+
 
 
 @interface MasterViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
@@ -29,18 +32,35 @@
     
 }
 
+-(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
+    
+    SectionReusableView * sectionCell = [[SectionReusableView alloc]init];
+    
+    if ([kind isEqualToString:UICollectionElementKindSectionHeader]){
+        
+        sectionCell = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"headerIdentifier" forIndexPath:indexPath];
+        
+        PictureCategory* category = self.pictureHandler.categories[indexPath.section];
+        
+        [sectionCell setPictureCategory:category];
+        
+    }
+  
+    
+    return sectionCell;
+}
+
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     return self.pictureHandler.categories[section].pictures.count;
     
 }
-
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     PictureViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellIdentifier" forIndexPath:indexPath];
     
     PictureObject *photoObject = self.pictureHandler.categories[indexPath.section].pictures[indexPath.row];
-    
+        
     [cell setPhotoObject:photoObject];
 
     return cell;
