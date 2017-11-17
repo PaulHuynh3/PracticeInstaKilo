@@ -79,6 +79,7 @@
         
         dvc.photoObject = cell.photoObject;
         
+        
     }
     
     

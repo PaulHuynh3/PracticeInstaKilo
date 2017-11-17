@@ -26,8 +26,10 @@
 
 -(void)configureView{
     
+    //configure cell before view loads.
     self.PictureName.text = self.photoObject.photoName;
     self.detailImageView.image = self.photoObject.photo;
+    
     
 }
 

@@ -14,6 +14,5 @@
 
 @property PictureObject *photoObject;
 
-@property PictureCategory *categoryName;
 
 @end
