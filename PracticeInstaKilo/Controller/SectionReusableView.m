@@ -19,9 +19,10 @@
 -(void)setPictureCategory:(PictureCategory *)pictureCategory{
     //set the pictureCategory from .h file to this current one.. So we can manipulate the data while keeping it private.
     _pictureCategory = pictureCategory;
-    
+
     self.sectionNameLabel.text = pictureCategory.categoryName;
 }
+
 
 
 @end

@@ -38,7 +38,7 @@
     for (NSInteger i =1; i < 5; ++i) {
         
         NSString *picture = [NSString stringWithFormat:@"%@%ld%ld.jpg",name,(long)0,(long)i];
-        [temp addObject:[[PictureObject alloc]initWithPicture:picture]];
+        [temp addObject:[[PictureObject alloc]initWithPicture:picture andName:picture]];
     }
     //save info to the mutable array property declaed in .h
     self.pictures = [temp copy];

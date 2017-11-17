@@ -10,10 +10,11 @@
 
 @implementation PictureObject
 
-- (instancetype)initWithPicture:(NSString *)imageName
+- (instancetype)initWithPicture:(NSString *)imageName andName:(NSString*)photoName
 {
     if (self = [super init]) {
         _photo = [UIImage imageNamed:imageName];
+        _photoName = photoName;
         
     }
     return self;

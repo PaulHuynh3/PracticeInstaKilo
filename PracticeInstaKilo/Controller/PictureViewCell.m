@@ -14,7 +14,7 @@
     
     _photoObject = photoObject;
      self.imageView.image = photoObject.photo;
-   
+     self.pictureName.text = photoObject.photoName;
 }
 
 

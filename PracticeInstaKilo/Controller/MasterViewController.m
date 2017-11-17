@@ -60,7 +60,8 @@
     PictureViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellIdentifier" forIndexPath:indexPath];
     
     PictureObject *photoObject = self.pictureHandler.categories[indexPath.section].pictures[indexPath.row];
-        
+    
+    //pass photoobject to pictureviewcell and inside the cell it will set the new object.
     [cell setPhotoObject:photoObject];
 
     return cell;
