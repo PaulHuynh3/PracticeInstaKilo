@@ -103,19 +103,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDL-yw-fBu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jDL-yw-fBu">
                                 <rect key="frame" x="0.0" y="196" width="375" height="471"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCL-Gn-1vv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCL-Gn-1vv">
                                 <rect key="frame" x="0.0" y="138" width="375" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eCL-Gn-1vv" firstAttribute="top" secondItem="cvR-YO-Oxf" secondAttribute="top" constant="74" id="3Pp-XI-p8i"/>
+                            <constraint firstItem="eCL-Gn-1vv" firstAttribute="leading" secondItem="cvR-YO-Oxf" secondAttribute="leading" id="4R8-0s-pg4"/>
+                            <constraint firstItem="jDL-yw-fBu" firstAttribute="top" secondItem="eCL-Gn-1vv" secondAttribute="bottom" constant="37" id="87d-2u-iYH"/>
+                            <constraint firstItem="jDL-yw-fBu" firstAttribute="trailing" secondItem="cvR-YO-Oxf" secondAttribute="trailing" id="P7H-Qt-hvH"/>
+                            <constraint firstItem="jDL-yw-fBu" firstAttribute="leading" secondItem="cvR-YO-Oxf" secondAttribute="leading" id="SI4-X8-IQo"/>
+                            <constraint firstItem="eCL-Gn-1vv" firstAttribute="trailing" secondItem="cvR-YO-Oxf" secondAttribute="trailing" id="Ygg-Hg-3QW"/>
+                            <constraint firstItem="jDL-yw-fBu" firstAttribute="bottom" secondItem="cvR-YO-Oxf" secondAttribute="bottom" id="yvr-gl-86Z"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cvR-YO-Oxf"/>
                     </view>
                     <connections>
