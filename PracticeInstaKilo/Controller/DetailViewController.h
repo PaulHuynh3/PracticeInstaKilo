@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PictureObject.h"
+#import "PictureCategory.h"
 
 @interface DetailViewController : UIViewController
+
+@property PictureObject *picture;
+@property PictureObject *pictureName;
+
+@property PictureCategory *categoryName;
 
 @end

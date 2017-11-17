@@ -11,6 +11,7 @@
 #import "PictureViewCell.h"
 #import "PictureCategory.h"
 #import "SectionReusableView.h"
+#import "DetailViewController.h"
 
 
 
@@ -68,6 +69,20 @@
     
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    if([segue.identifier isEqualToString:@"dvcSegue"]){
+        //cell that was used to identify the 2d array.
+        PictureViewCell *cell = (PictureViewCell*)sender;
+        
+        DetailViewController *dvc = [segue destinationViewController];
+        
+        dvc.pictureObject = cell.pictureName;
+        
+    }
+    
+    
+}
 
 
 @end

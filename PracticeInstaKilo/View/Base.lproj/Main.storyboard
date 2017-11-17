@@ -51,6 +51,7 @@
                                         <connections>
                                             <outlet property="imageView" destination="4oa-Da-Sgh" id="vYz-yb-zoD"/>
                                             <outlet property="pictureName" destination="xll-we-dcj" id="jD8-Yc-w7n"/>
+                                            <segue destination="XiX-ju-gRn" kind="show" identifier="dvcSegue" id="pAc-db-atX"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -93,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="oPO-Pg-Vj7">
             <objects>
-                <viewController id="XiX-ju-gRn" sceneMemberID="viewController">
+                <viewController id="XiX-ju-gRn" customClass="DetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oUd-78-pQP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,10 +106,21 @@
                                 <rect key="frame" x="0.0" y="75" width="375" height="592"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCL-Gn-1vv">
+                                <rect key="frame" x="73" y="30" width="206" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cvR-YO-Oxf"/>
                     </view>
+                    <connections>
+                        <outlet property="PictureName" destination="eCL-Gn-1vv" id="b67-V0-29t"/>
+                        <outlet property="detailImageView" destination="jDL-yw-fBu" id="Wqh-5E-5pr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzM-Yo-O6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
