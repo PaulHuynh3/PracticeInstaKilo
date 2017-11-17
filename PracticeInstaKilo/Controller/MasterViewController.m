@@ -38,15 +38,15 @@
     
     if ([kind isEqualToString:UICollectionElementKindSectionHeader]){
         
-        sectionCell = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"headerIdentifier" forIndexPath:indexPath];
+        sectionCell = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"sectionIdentifier" forIndexPath:indexPath];
         
         PictureCategory* category = self.pictureHandler.categories[indexPath.section];
         
+        //pass category object to section cell and set it.
         [sectionCell setPictureCategory:category];
         
     }
   
-    
     return sectionCell;
 }
 
