@@ -10,6 +10,12 @@
 
 @implementation PictureViewCell
 
-
+-(void)setPhotoObject:(PictureObject *)photoObject{
+    
+    _photoObject = photoObject;
+    
+    self.imageView.image = photoObject.photo;
+    
+}
 
 @end

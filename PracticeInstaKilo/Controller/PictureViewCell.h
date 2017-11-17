@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PictureObject.h"
 
 @interface PictureViewCell : UICollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *pictureName;
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+@property(weak, nonatomic)PictureObject *photoObject;
 
 @end
