@@ -61,7 +61,7 @@
     
     PictureObject *photoObject = self.pictureHandler.categories[indexPath.section].pictures[indexPath.row];
     
-    //pass photoobject to pictureviewcell and inside the cell it will set the new object.
+    //pass the entire photoobject to pictureviewcell and inside the cell i can choose to set different properties of the object(the image, the name etc).
     [cell setPhotoObject:photoObject];
 
     return cell;

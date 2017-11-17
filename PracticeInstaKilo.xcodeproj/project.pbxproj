@@ -10,6 +10,7 @@
 		DA7186361FBC0004007C5A8C /* PictureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7186351FBC0004007C5A8C /* PictureHandler.m */; };
 		DA7186391FBC02B6007C5A8C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7186381FBC02B6007C5A8C /* MasterViewController.m */; };
 		DA9306B01FBE90FC00F7F339 /* SectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9306AF1FBE90FC00F7F339 /* SectionReusableView.m */; };
+		DA9306B31FBE9C5600F7F339 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9306B21FBE9C5600F7F339 /* DetailViewController.m */; };
 		DAE902AF1FBCEEF700D9C0AB /* PictureViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE902AE1FBCEEF700D9C0AB /* PictureViewCell.m */; };
 		DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF392781FBBF3CD00D7BDDB /* AppDelegate.m */; };
 		DAF3927F1FBBF3CD00D7BDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF3927D1FBBF3CD00D7BDDB /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 		DA7186381FBC02B6007C5A8C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		DA9306AE1FBE90FC00F7F339 /* SectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionReusableView.h; sourceTree = "<group>"; };
 		DA9306AF1FBE90FC00F7F339 /* SectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionReusableView.m; sourceTree = "<group>"; };
+		DA9306B11FBE9C5600F7F339 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DA9306B21FBE9C5600F7F339 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		DAE902AD1FBCEEF700D9C0AB /* PictureViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureViewCell.h; sourceTree = "<group>"; };
 		DAE902AE1FBCEEF700D9C0AB /* PictureViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureViewCell.m; sourceTree = "<group>"; };
 		DAF392741FBBF3CD00D7BDDB /* PracticeInstaKilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeInstaKilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +115,8 @@
 				DAE902AE1FBCEEF700D9C0AB /* PictureViewCell.m */,
 				DA9306AE1FBE90FC00F7F339 /* SectionReusableView.h */,
 				DA9306AF1FBE90FC00F7F339 /* SectionReusableView.m */,
+				DA9306B11FBE9C5600F7F339 /* DetailViewController.h */,
+				DA9306B21FBE9C5600F7F339 /* DetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			files = (
 				DAE902AF1FBCEEF700D9C0AB /* PictureViewCell.m in Sources */,
 				DAF392921FBBF4F000D7BDDB /* PictureObject.m in Sources */,
+				DA9306B31FBE9C5600F7F339 /* DetailViewController.m in Sources */,
 				DAF392871FBBF3CD00D7BDDB /* main.m in Sources */,
 				DA9306B01FBE90FC00F7F339 /* SectionReusableView.m in Sources */,
 				DAF392791FBBF3CD00D7BDDB /* AppDelegate.m in Sources */,
